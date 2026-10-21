@@ -1,0 +1,26 @@
+[package]
+name = "max-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "maximus"
+path = "src/main.rs"
+
+[dependencies]
+max-core = { path = "../max-core" }
+max-state = { path = "../max-state" }
+max-memory = { path = "../max-memory" }
+max-providers = { path = "../max-providers" }
+max-tools = { path = "../max-tools" }
+max-sandbox = { path = "../max-sandbox" }
+max-runtime = { path = "../max-runtime" }
+max-channels = { path = "../max-channels" }
+max-tui = { path = "../max-tui" }
+clap.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+dirs.workspace = true

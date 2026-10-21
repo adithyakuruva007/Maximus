@@ -1,0 +1,11 @@
+/target
+**/*.rs.bk
+Cargo.lock.backup
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.*
+!.env.example
+memories/
+dist/
